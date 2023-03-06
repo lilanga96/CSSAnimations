@@ -1,0 +1,31 @@
+#img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 35%;
+
+}
+
+#img:hover {
+    animation-name: gitAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes gitAnimation {
+    0% {
+        transform: translateX(3rem);
+
+    }
+
+    50% {
+        transform: translateY(3rem);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
